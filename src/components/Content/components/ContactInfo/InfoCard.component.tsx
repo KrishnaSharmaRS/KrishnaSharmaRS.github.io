@@ -11,7 +11,7 @@ export default function InfoCard({ items }: { items: IContactInfo[] }) {
         <div className="art-table p-15-15">
           <ul>
             {items.map(({ title, value, url }, index) => (
-              <li key={index + 1}>
+              <li key={title}>
                 <h6>{title}:</h6>
                 {url ? (
                   <a href={url} target="_blank" rel="noreferrer">

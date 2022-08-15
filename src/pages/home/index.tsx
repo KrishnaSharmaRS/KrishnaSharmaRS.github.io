@@ -14,29 +14,10 @@ export default function HomePage() {
       <div className="art-preloader" style={{ opacity: 0, display: "none" }}>
         <div className="art-preloader-content" style={{ opacity: 1 }}>
           <h4>Krishna Sharma | Full Stack Developer</h4>
-          <div
-            id="preloader"
-            className="art-preloader-load"
-            style={{ position: "relative" }}
-          >
-            <svg
-              viewBox="0 0 100 1.7"
-              preserveAspectRatio="none"
-              style={{ width: "100%", height: "100%" }}
-            >
-              <path
-                d="M 0,0.85 L 100,0.85"
-                stroke="#eee"
-                strokeWidth="1.7"
-                fillOpacity={0}
-              />
-              <path
-                d="M 0,0.85 L 100,0.85"
-                stroke="#555"
-                strokeWidth="1.7"
-                fillOpacity={0}
-                style={{ strokeDasharray: "100, 100", strokeDashoffset: 0 }}
-              />
+          <div id="preloader" className="art-preloader-load" style={{ position: "relative" }}>
+            <svg viewBox="0 0 100 1.7" preserveAspectRatio="none" style={{ width: "100%", height: "100%" }}>
+              <path d="M 0,0.85 L 100,0.85" stroke="#eee" strokeWidth="1.7" fillOpacity={0} />
+              <path d="M 0,0.85 L 100,0.85" stroke="#555" strokeWidth="1.7" fillOpacity={0} style={{ strokeDasharray: "100, 100", strokeDashoffset: 0 }} />
             </svg>
             <div
               className="progressbar-text"

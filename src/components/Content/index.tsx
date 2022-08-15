@@ -10,24 +10,12 @@ export default function Content() {
   return (
     <div className="art-content">
       <div className="art-curtain" />
-      <div
-        className="art-top-bg"
-        style={{ backgroundImage: `url(${BackgroundImage})` }}
-      >
+      <div className="art-top-bg" style={{ backgroundImage: `url(${BackgroundImage})` }}>
         <div className="art-top-bg-overlay" />
       </div>
       <div className="transition-fade" id="swup" data-swup={0}>
-        <div
-          id="scrollbar"
-          className="art-scroll-frame"
-          data-scrollbar="true"
-          tabIndex={-1}
-          style={{ overflow: "hidden", outline: "none" }}
-        >
-          <div
-            className="scroll-content"
-            style={{ transform: "translate3d(0px, 0px, 0px)" }}
-          >
+        <div id="scrollbar" className="art-scroll-frame" data-scrollbar="true" tabIndex={-1} style={{ overflow: "hidden", outline: "none" }}>
+          <div className="scroll-content" style={{ transform: "translate3d(0px, 0px, 0px)" }}>
             <HeaderCard />
             <Services />
             <Works />
@@ -35,10 +23,7 @@ export default function Content() {
             <ContactInfo />
             <Footer />
           </div>
-          <div
-            className="scrollbar-track scrollbar-track-x"
-            style={{ display: "none" }}
-          >
+          <div className="scrollbar-track scrollbar-track-x" style={{ display: "none" }}>
             <div
               className="scrollbar-thumb scrollbar-thumb-x"
               style={{
@@ -47,10 +32,7 @@ export default function Content() {
               }}
             />
           </div>
-          <div
-            className="scrollbar-track scrollbar-track-y"
-            style={{ display: "block" }}
-          >
+          <div className="scrollbar-track scrollbar-track-y" style={{ display: "block" }}>
             <div
               className="scrollbar-thumb scrollbar-thumb-y"
               style={{

@@ -51,8 +51,8 @@ export default function Works() {
           </div>
         </div>
         <div className="art-grid art-grid-3-col art-gallery" style={{ position: "relative", height: "462.109px" }}>
-          {data.projects.map((project, index) => (
-            <WorkCard key={index + 1} {...project} />
+          {data.projects.map((project) => (
+            <WorkCard key={project.title} {...project} />
           ))}
         </div>
       </div>

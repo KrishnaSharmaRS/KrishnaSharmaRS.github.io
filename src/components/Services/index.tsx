@@ -3,7 +3,8 @@ import ServiceCard, { IService } from "./ServiceCard.component";
 const services: IService[] = [
   {
     title: "Web Development",
-    description: "I can build website of any scale front-end to back-end with React.js + Node.js using TypeScript with integration of SQL or NoSQL database like MySQL, PostgreSQL, MongoDB etc.",
+    description:
+      "I can build website of any scale front-end to back-end with React.js + Node.js using TypeScript with integration of SQL or NoSQL database like MySQL, PostgreSQL, MongoDB etc.",
   },
   {
     title: "UI/UX Design",
@@ -26,8 +27,8 @@ export default function Services() {
             </div>
           </div>
         </div>
-        {services.map((service, index) => (
-          <ServiceCard key={index + 1} {...service} />
+        {services.map((service) => (
+          <ServiceCard key={service.title} {...service} />
         ))}
       </div>
     </div>

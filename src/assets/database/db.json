@@ -1,0 +1,27 @@
+{
+  "education": [
+    {
+      "title": "Bachelor of Science (B. Sc.) - C. S.",
+      "value": "Dr. Bhimrao Ambedkar University",
+      "dateRange": "July 2015 - May 2018"
+    },
+    {
+      "title": "Intermediate (Class 12th) - P. C. M.",
+      "value": "Uttar Pradesh Board",
+      "dateRange": "July 2013 - May 2015"
+    },
+    {
+      "title": "High-School (Class 10th) - P. C. M.",
+      "value": "Uttar Pradesh Board",
+      "dateRange": "July 2011 - May 2013"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "value": "CodeFire Technologies Pvt. Ltd.",
+      "dateRange": "March 2021 - Present",
+      "description": "To build front-end with React.js and back-end with Node.js for consuming APIs, using SQL & NoSQL databases like MySQL & MongoDB."
+    }
+  ]
+}
