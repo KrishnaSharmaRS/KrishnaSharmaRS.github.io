@@ -1,6 +1,6 @@
 import InfoCard, { IContactInfo } from "./InfoCard.component";
 
-const contactInfos: { [key: string]: IContactInfo[] } = {
+export const contactInfos: { [key: string]: IContactInfo[] } = {
   address: [
     {
       title: "Country",
@@ -12,7 +12,7 @@ const contactInfos: { [key: string]: IContactInfo[] } = {
     },
     {
       title: "City",
-      value: "Noida",
+      value: "Ghaziabad, U. P.",
     },
     {
       title: "Address",
@@ -45,18 +45,22 @@ const contactInfos: { [key: string]: IContactInfo[] } = {
     {
       title: "Phone",
       value: "+91 94588 55445",
+      url: "tel:+919458855445",
     },
     {
       title: "Alternative Phone",
       value: "+91 94 12345 783",
+      url: "tel:+919412345783",
     },
     {
       title: "WhatsApp",
       value: "+91 94588 55445",
+      url: "https://wa.me/919458855445",
     },
     {
       title: "Telegram",
       value: "+91 94588 55445",
+      url: "https://t.me/+919412345783",
     },
   ],
 };

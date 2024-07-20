@@ -2,13 +2,7 @@ import DownloadResume from "../DownloadResume";
 
 export default function Info() {
   return (
-    <div
-      id="scrollbar2"
-      className="art-scroll-frame"
-      data-scrollbar="true"
-      tabIndex={-1}
-      style={{ overflow: "hidden", outline: "none" }}
-    >
+    <div id="scrollbar2" className="art-scroll-frame" data-scrollbar="true" tabIndex={-1} style={{ overflow: "hidden", outline: "none" }}>
       <div className="scroll-content py-2">
         <div className="art-table p-15-15">
           <ul>
@@ -18,11 +12,7 @@ export default function Info() {
             </li>
             <li>
               <h6>City:</h6>
-              <span>Noida</span>
-            </li>
-            <li>
-              <h6>Age:</h6>
-              <span>22+</span>
+              <span>Ghaziabad, U. P.</span>
             </li>
           </ul>
         </div>
@@ -81,7 +71,7 @@ export default function Info() {
         <div className="art-ls-divider" />
         <ul className="art-knowledge-list p-15-0">
           <li>Bootstrap</li>
-          <li>Sass</li>
+          <li>Sass / Scss</li>
           <li>Redux</li>
           <li>AWS S3</li>
           <li>Firebase</li>
@@ -93,10 +83,7 @@ export default function Info() {
           <DownloadResume />
         </div>
       </div>
-      <div
-        className="scrollbar-track scrollbar-track-x"
-        style={{ display: "none" }}
-      >
+      <div className="scrollbar-track scrollbar-track-x" style={{ display: "none" }}>
         <div
           className="scrollbar-thumb scrollbar-thumb-x"
           style={{
@@ -105,10 +92,7 @@ export default function Info() {
           }}
         />
       </div>
-      <div
-        className="scrollbar-track scrollbar-track-y"
-        style={{ display: "block" }}
-      >
+      <div className="scrollbar-track scrollbar-track-y" style={{ display: "block" }}>
         <div
           className="scrollbar-thumb scrollbar-thumb-y"
           style={{

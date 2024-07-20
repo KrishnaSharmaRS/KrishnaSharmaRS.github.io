@@ -6,28 +6,27 @@ import WorkCard, { IWork } from "./WorkCard.component";
 const data: { [key: string]: IWork[] } = {
   projects: [
     {
-      title: "The Towels Company",
+      title: "Skillyst",
       description:
-        "An e-commerce website for purchasing towels of different categories &amp; situations like Bath Towels, Beach Towels etc. It is built with React.js + Node.js using TypeScript and used MySQL for the Database.",
-      imageSrc: ImageOne,
-      liveUrl: "http://128.199.79.197:8080/",
-      className: "webTemplates",
-    },
-    {
-      title: "Quality Home Images",
-      description:
-        "A platform for users to book photographers for photo-shoot or video-shoot at their site for any kind of occation like birthday party. I built back-end of this project in Node.js with ExpressJS framework, integrated AWS S3 for the uploaded images and Firebase for Google/Facebook authentication.",
+        "This is a website under foundit.in (formerly monsterindia.com) for job seekers to take skill assessments and get a badge on profile to show case the recruiters",
       imageSrc: ImageTwo,
-      liveUrl: "http://qhimedia.com/",
+      liveUrl: "https://www.foundit.in/skillyst/",
       className: "logos",
     },
     {
-      title: "Real-Time Chat App",
-      description:
-        "This is a chat application where users can create &amp; join same Room to chat with one - another in real-time. I built this project with Socket.io Library for Node.js for WebSocket Protocol.",
+      title: "The Lash Lounge",
+      description: "This project is for U.S. users for booking the salons nearest to their current location by selecting the services and appointment slots with the Stylists.",
       imageSrc: ImageThree,
-      liveUrl: "https://krishnasharmars-chat-app.herokuapp.com/",
+      liveUrl: "https://booking-dev.thelashlounge.com/",
       className: "drawings",
+    },
+    {
+      title: "DropperVault",
+      description:
+        "An e-commerce website for purchasing towels of different categories &amp; situations like Bath Towels, Beach Towels etc. It is built with React.js + Node.js using TypeScript and used MySQL for the Database.",
+      imageSrc: ImageOne,
+      liveUrl: "https://here-i-shop.vercel.app/",
+      className: "webTemplates",
     },
   ],
 };

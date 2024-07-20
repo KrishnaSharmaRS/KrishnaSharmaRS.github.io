@@ -1,26 +1,32 @@
 {
   "education": [
     {
-      "title": "Bachelor of Science (B. Sc.) - C. S.",
+      "title": "Bachelor of Science (B. Sc.) - C.S.",
       "value": "Dr. Bhimrao Ambedkar University",
       "dateRange": "July 2015 - May 2018"
     },
     {
-      "title": "Intermediate (Class 12th) - P. C. M.",
+      "title": "Intermediate (Class 12th) - P.C.M.",
       "value": "Uttar Pradesh Board",
       "dateRange": "July 2013 - May 2015"
     },
     {
-      "title": "High-School (Class 10th) - P. C. M.",
+      "title": "High-School (Class 10th) - P.C.M.",
       "value": "Uttar Pradesh Board",
       "dateRange": "July 2011 - May 2013"
     }
   ],
   "experience": [
     {
+      "title": "SDE 2",
+      "value": "Heady Technologies Consultancy Pvt. Ltd.",
+      "dateRange": "April 2023 - Present",
+      "description": "Working as a Senior Full Stack Developer to develop web apps in React.js and Node.js using TypeScript and some popular libraries and Frameworks like Express.js, Next.js, Nest.js, Redux etc."
+    },
+    {
       "title": "Software Engineer",
       "value": "CodeFire Technologies Pvt. Ltd.",
-      "dateRange": "March 2021 - Present",
+      "dateRange": "March 2021 - March 2023",
       "description": "To build front-end with React.js and back-end with Node.js for consuming APIs, using SQL & NoSQL databases like MySQL & MongoDB."
     }
   ]
