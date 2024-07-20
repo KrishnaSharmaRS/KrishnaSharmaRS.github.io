@@ -12,7 +12,7 @@ export const contactInfos: { [key: string]: IContactInfo[] } = {
     },
     {
       title: "City",
-      value: "Ghaziabad, U. P.",
+      value: "Ghaziabad",
     },
     {
       title: "Address",
